@@ -1,6 +1,6 @@
-## A project assignment for data analysts.
+# A project assignment for data analysts.
 
-# Task 1
+## Task 1
 
 Context
 We believe that our product is expensive enough for the customer.
@@ -23,7 +23,7 @@ We would like to distinguish between a 5%
 change in the target metric
 With a probability of 80%.
 
-# Task 2
+## Task 2
 
 Context
 The Central Bank has relaxed the rule,
@@ -41,7 +41,7 @@ into two parts early on,
 where one part (control) 
 we will offer the service in the current way,
 and the other part (the test) 
-- in a new, more aggressive way.
+in a new, more aggressive way.
 The purpose of this test 
 is to increase the profitability of the CC + service.
 
