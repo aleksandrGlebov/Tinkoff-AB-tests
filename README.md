@@ -1,55 +1,49 @@
-# A project assignment for data analysts.
+# Data Analysis Project - A/B Testing
 
-## Task 1
+This repository contains the analysis and implementation of A/B tests aimed at optimizing product sales and service offerings.
 
-Context
-We believe that our product is expensive enough for the customer.
-We have a hypothesis that reducing the price of the product
-will increase the frequency of sales
-and increase the profitability of the product overall.
-        
-Test
-We conduct a test,
-in which the control is
-the sale of the product with the old price,
-and the test is the sale of the product with the new price.
-The purpose of this test
-is to test the hypothesis of an increase in profitability
-of our product due to a decrease in the tariff.
+## Task 1: Optimizing Product Pricing
 
-Statistical Inputs
-5% significance level.
-We would like to distinguish between a 5%
-change in the target metric
-With a probability of 80%.
+### Context for task 1
 
-## Task 2
+The hypothesis is that the current pricing of the product might be on the higher side, which could be impacting sales. Reducing the product price is believed to potentially increase the sales frequency and overall profitability.
 
-Context
-The Central Bank has relaxed the rule,
-wich limiting the options for selling the service.
-We want to try
-a more aggressive sale of the service,
-but we are afraid,
-that it will affect the economics of the core product (CC - credit card)
-Because of customer negativity.
+### Experiment for task 1
 
-Test
-We conduct a test,
-in which we break down the entire flow
-into two parts early on,
-where one part (control) 
-we will offer the service in the current way,
-and the other part (the test) 
-in a new, more aggressive way.
-The purpose of this test 
-is to increase the profitability of the CC + service.
+An A/B test is conducted with two groups:
 
-Statistical inputs.
-The homogeneity check of the chosen parameter
-is performed with a significance level of 2%.
+- Control Group: Products are sold at the original price.
+- Test Group: Products are sold at a reduced price.
 
-The significance level is 5%.
-We would like to distinguish 3%
-change in the target metric
-with 85% probability.
+The objective of this A/B test is to validate if reducing the price indeed increases the product's profitability.
+
+### Statistical Parameters for task 1
+
+- Significance Level (Alpha): 5%
+- Minimum Detectable Effect: 5% change in the target metric
+- Statistical Power (1 - Beta): 80%
+
+## Task 2: Evaluating Aggressive Service Sales Approach
+
+### Context for task 2
+
+The Central Bank has eased certain regulations that previously limited the options for selling services. There is an opportunity to adopt a more aggressive sales approach for the services. However, there are concerns that this might have a negative impact on the core product (credit card) economics due to possible customer dissatisfaction.
+
+### Experiment for task 2
+
+An A/B test is conducted by dividing the customer flow into two groups:
+
+- Control Group: Service is offered in the current manner.
+- Test Group: Service is offered aggressively.
+
+The objective of this A/B test is to determine whether a more aggressive sales approach for services leads to positive or negative changes in the core product's (credit card) economics.
+
+### Statistical Parameters for task 2
+
+- Significance Level (Alpha): 5%
+- Minimum Detectable Effect: 5% change in the target metric
+- Statistical Power (1 - Beta): 80%
+
+## Conclusion
+
+It is essential to carefully plan and analyze A/B tests for optimizing product sales and service offerings. Adherence to statistical principles and significance criteria is key to obtaining reliable results.
